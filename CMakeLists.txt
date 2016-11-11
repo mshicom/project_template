@@ -8,6 +8,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
 # source code for core library
 add_subdirectory(src)
+include_directories(src)
 
 # include gtest and test code
 add_subdirectory(test)
